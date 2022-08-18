@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dash_board_home.dart';
 
+/// this is first branch
+/// we'll develop from here
+///
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
