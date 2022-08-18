@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 //import 'all_pages.dart';
 
@@ -24,7 +25,7 @@ class DashBoardHome extends StatelessWidget {
             decoration: const BoxDecoration(
               gradient: LinearGradient(
                 colors: [
-                  Colors.pink,
+                  Colors.purple,
                   Colors.grey,
                 ],
                 begin: Alignment.topRight,
@@ -111,10 +112,10 @@ class DashBoardHome extends StatelessWidget {
   Widget newPage(String text) => Center(
         child: Text(
           text,
-          style: const TextStyle(
-            fontSize: 60,
+          style: GoogleFonts.salsa(
+            fontSize: 60.00,
             fontWeight: FontWeight.bold,
-            color: Colors.red,
+            color: Colors.pink,
           ),
         ),
       );
