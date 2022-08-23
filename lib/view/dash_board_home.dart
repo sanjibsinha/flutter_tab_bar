@@ -19,8 +19,7 @@ class DashBoardHome extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-
-          //backgroundColor: Colors.grey[400],
+          backgroundColor: Colors.grey[400],
           flexibleSpace: Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
@@ -60,7 +59,7 @@ class DashBoardHome extends StatelessWidget {
           ],
           bottom: const TabBar(
             isScrollable: true,
-            indicatorColor: Colors.red,
+            indicatorColor: Colors.green,
             indicatorWeight: 10,
             tabs: [
               Tab(
