@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-//import 'all_pages.dart';
-
-/// adding transparent appbar
-/// modifying build icons
-
 class DashBoardHome extends StatelessWidget {
   const DashBoardHome({
     Key? key,
@@ -34,7 +29,12 @@ class DashBoardHome extends StatelessWidget {
           ),
           elevation: 20,
           titleSpacing: 80,
-          leading: const Icon(Icons.menu),
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back, color: Colors.amber),
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+          ),
           title: const Text(
             'Let\'s Go!',
             textAlign: TextAlign.center,
